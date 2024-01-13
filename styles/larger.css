@@ -1,0 +1,39 @@
+@media screen and (min-width: 550px) {
+
+    body {
+        max-width: 1100px;
+        margin: auto;
+    }
+
+  
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    main h1,
+    main h2 {
+        font-size: x-large;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    main h1 {
+        /* grid-column: 100%; */
+        grid-row: 1/2;
+    }
+
+    .card {
+        grid-row: 2/3;
+    }
+  
+
+}
