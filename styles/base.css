@@ -266,21 +266,14 @@ nav {
 }
 
 /* Add these styles at the end of your base.css file */
-body.dark-mode {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  .card h2 {
-    color: #fff;
-    background-color: #333;
-  }
-  
-  .navigation a {
-    color: #fff;
-  }
-  
-  nav {
-    background-color: #333;
-  }
+
+#mode {
+    display: inline;
+    padding: 2rem 1.5rem;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
 
