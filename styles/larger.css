@@ -1,11 +1,15 @@
 @media screen and (min-width: 550px) {
 
+
+
     body {
         max-width: 1100px;
         margin: auto;
     }
 
- 
+    #menu {
+        display: none;
+    }
   
 
     nav ul {
@@ -36,26 +40,4 @@
         grid-row: 2/3;
     }
 
-    #menu {
-        display: none;
-    }
-    
-    .navigation {
-        display: flex;
-    }
-
-    .navigation li {
-        display: block;
-        /* change state in small view */
-        flex: 1 1 100%;
-        border-radius: 2%;
-    }
-
-    .navigation a {
-        text-align: center;
-        padding-left: 15px;
-        border-radius: 2%;
-    }
-
-    
 }

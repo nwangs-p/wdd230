@@ -10,7 +10,7 @@ modeButton.addEventListener("click", () => {
         main.style.background = "#7a7a7a";
         main.style.color = "#f5f4f4";
         menuButton.style.background = "#f5f4f42";
-        menuButton.style.color = "#7a7a7a";
+        menuButton.style.color = "#020000";
 
         modeButton.textContent = "☀";
         a.forEach(link => {

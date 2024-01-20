@@ -211,7 +211,7 @@ footer {
     font-size: 2rem;
     font-weight: 700;
     text-decoration: none;
-    padding: 2rem 1.5rem;
+    padding: .5rem;
     background-color: #F2F5FA;
 }
 
@@ -276,4 +276,6 @@ nav {
 	cursor: pointer;
 	font-size: 2rem;
 }
+
+
 
