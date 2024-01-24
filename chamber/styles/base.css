@@ -178,12 +178,14 @@ p {
 }
 
 .events:nth-last-child(1) {
-    background-color: #7a7a7a;
+    background-color: #f5f4f4;
     border-top-right-radius: 7px;
+    color: #020000;
 }
 
 .events:nth-last-child(3) {
-    background-color: #7a7a7a;
+    background-color: #f5f4f4;
+    color: #020000;
 }
 
 .events:nth-last-child(4) {
