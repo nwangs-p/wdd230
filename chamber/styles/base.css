@@ -51,13 +51,13 @@ nav .active a {
 
 #menu {
   display: block;
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: 700;
   text-decoration: none;
   padding: 2rem 1.5rem;
   background-color: #7a7a7a;
   border: #f5f4f4 solid 1px;
-  padding: 9px;
+  padding: 7px;
   margin-right: 3px;
 }
 
@@ -149,7 +149,7 @@ p {
     color: #f5f4f4;
 }
 
-#hero-msg h1 {
+#hero-msg h2 {
     font-size: 30px;
     
 }

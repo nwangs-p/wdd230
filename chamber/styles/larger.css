@@ -1,4 +1,6 @@
 @media screen and (min-width: 550px) {
+
+    
     .spotlights {
         display: flex;
         padding: 5%;
@@ -31,7 +33,7 @@
         border-right: 1px solid #ccc;
     }
 
-    #hero-msg h1  {
+    #hero-msg h2  {
         font-size: 2.5rem;
     }
 
