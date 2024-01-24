@@ -17,9 +17,9 @@
         justify-content: center;
     }
 
-    nav ul li {
+    /* nav ul li {
         flex: 1 1 100%;
-    }
+    } */
 
     main h1,
     main h2 {

@@ -1,0 +1,68 @@
+@media screen and (min-width: 550px) {
+    .spotlights {
+        display: flex;
+        padding: 5%;
+    }
+
+   .founding,
+   .mission,
+    .benefit {
+        margin-right: 2%;
+        flex: 1; /*take equal available space within the flex container*/
+    }
+
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav #mode {
+        display: block;
+    }
+  
+    .show li {
+        display: block;
+        border-bottom: transparent;
+        border-right: 1px solid #ccc;
+    }
+
+    #hero-msg h1  {
+        font-size: 2.5rem;
+    }
+
+    .c-event {
+        margin-left: 50px;
+    }
+
+    .container {
+        height: 100vh;
+        margin-bottom: 1%;
+        margin-top: 5%;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 100%;
+        border-radius: 2%;
+    }
+
+    .navigation a {
+        text-align: center;
+        padding-left: 15px;
+        border-radius: 2%;
+    }
+
+    #menu {
+        display: none;
+    }
+}
