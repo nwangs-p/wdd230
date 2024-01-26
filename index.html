@@ -39,7 +39,16 @@
             <li><a href="">Form</a></li>
         </ul>
     </nav>
-    
+    <div class="hero">
+        <picture>
+            <source srcset="images/hero-small.webp" media="(min-width: 500px)">
+            <source srcset="images/hero-medium.webp" media="(min-width: 1000px)">   
+            <img src="images/hero-large.webp" loading="lazy" width="500" height="250" alt="hero photo">
+        </picture>
+        <div class="herolabel">
+            <p>Aba Temple</p>
+        </div>
+    </div>
     <main>
         <h1>WDD 230: Web Front End Development</h1>
         <section class="card">
@@ -69,7 +78,7 @@
             <ul>
                <li>Benin City, Edo</li> 
                <li>Weather:</li>
-               <li>Page Visits:</li>
+               <li><p><span class="label">Page Visits: </span><span class="visits"></span></p></li>
             </ul>
         </section>
     </main>
@@ -89,5 +98,6 @@
     <script src="scripts/dark-mode.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburguer-menu.js"></script>
+    <script src="scripts/visit-number.js"></script>
 </body>
 </html>
