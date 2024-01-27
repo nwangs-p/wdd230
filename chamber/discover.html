@@ -13,9 +13,9 @@
     <link rel="icon" type="image/x-icon" href="images/BlackandWhite.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    >
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+  
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,800&family=Roboto&display=swap" rel="stylesheet">  
 </head>
 <body>
@@ -42,63 +42,71 @@
             </li>
         </ul>
     </nav>
-    
-    <div id="hero">
-        <div id="hero-pic">
-            <img src="images/hero-pic.png" alt="">
-        </div>
-        <section id="hero-msg">
-            <h2>Area King Chamber of Commerce</h2>
-            <div id="booking">
-                <a class="join" href="">Join now!</a>
-            </div>
-            <div id="updates">
-                <a class="events" href="">
-                    <i class="fa fa-calendar" style="font-size: 24px; color: #f5f4f4; text-align: center;"></i>
-                    <p>CURRENT EVENT</p>
-                </a>
-                <a class="events" href="">
-                    <i class="fa fa-users" style="font-size: 24px; color: #f5f4f4;"></i>
-                    <p>MEMBER DIRECTORY</p>
-                </a>
-                <a class="events" href="">
-                    <i class="fa fa-newspaper-o" style="font-size: 24px; color: #f5f4f4;"></i>
-                    <p>NEW UPDATES</p>
-                </a>
-                <a class="events" href="">
-                    <i class="fa fa-tag" style="font-size: 24px; color: #f5f4f4;"></i>
-                    <p>JOIN THE CAHMBER</p>
-                </a>
-            </div>
-        </section>
+    <div class="d-header">
+        <h1>Discover Area King</h1>
     </div>
-    <main>
-        <div class="container">
-            <img class="image" src="images/explore.jpg" alt="">
-            <!-- <div class="overlay">
-              <h4>Area King Chamber</h4>
-              <h5>Discover<br>The<br>World<br>of<br>Business</h5>
-            </div> -->
-          </div>
-        <section class="spotlights">
-            <div class="founding">
-                <img class="founding-pic" src="images/foundign-story.jpg" alt="">
-                <h2>Founding Story</h2>
-                <p>Our journey began with passion for businesses and inovations. In year 2009, our mission is to help and support local bussinesses, Overcoming challenges as we grow to become a staple in Benin city.</p>
+    <main id="d-main">
+        <div id="sidebar">
+            <section class="demogrphics">
+                <h2>Demographics</h2>
+                <p>Area King is a vibrant and diverse business community located in Benin City. With a mix of industries, it reflects the entrepreneurial spirit of our region. The community boasts a diverse population and skilled workers contributing to its growth</p>
+                <button>Learn More</button>
+            </section>
+
+            <section class="statistical">
+                <h2>Statistical Data</h2>
+                <p> Area King's economic landscape is thriving, with steady GDP growth, low unemployment rates, and a flourishing business ecosystem.</p>
+                <a href="">View Data</a>
+            </section>
+
+            <section class="d-event">
+                <h2>Events</h2>
+                <p>Explore our calendar for upcoming networking events, business workshops, and community gatherings </p>
+                <a href="">View Events</a>
+            </section>
+
+            <div id="websiteVisitInfo">
+                <h1 id="websiteVisitHeading">Website Visit Message:</h1>
+                <p id="websiteVisitMessage"></p>
             </div>
-            <div class="mission">
-                <img class="mission-pic" src="images/bussiness-flourish.jpg" alt="">
-                <h2>Mission</h2>
-                <p>We are committed to support and provide resource that enbles businesses to flourish.</p>
-            </div>
-            <div class="benefit">
-                <img class="benefit-pic" src="images/benefits.jpeg" alt="">
-                <h2>Membership Benefits</h2>
-                <p>Explore the diverse businesses that make up our vibrant community. Each month, we shine a spotlight on a featured business, celebrating their achievements and contributions.</p>
-            </div>
-        </section>
-        <div class="c-event">
-            <h1>Current Event</h1>
+        </div>
+
+     
+
+        <div id="main-content">
+            <h2>Major Industries</h2>
+
+            <!-- Lazy loading images with captions -->
+            <div class="f-image">
+                <figure>
+                    <img src="images/advertising-business-promotion.webp" alt="business promotion" loading="lazy" width="400" height="400">
+                    <figcaption>Advertising Business Promotion</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/technology.jpg" alt="tech inovations" loading="lazy" width="400" height="400">
+                    <figcaption>Technological innovation</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/finance_2.jpg.webp" alt="business finance" loading="lazy" width="400" height="400">
+                    <figcaption>Finance</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/business-and-strategic-management.jpg" alt="stratagies" loading="lazy" width="400" height="400">
+                    <figcaption>Strategic Management</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/digital-marketing.jpeg" alt="digital marketing" loading="lazy" width="400" height="400">
+                    <figcaption>Digital Marketing</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/creatvity.jfif" alt="Creativeness" loading="lazy" width="400" height="400">
+                    <figcaption>creatvity</figcaption>
+                </figure>
+        </div>
         </div>
     </main>
     <footer style="margin-top: 10%;">

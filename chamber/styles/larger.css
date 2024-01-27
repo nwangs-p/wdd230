@@ -67,4 +67,24 @@
     #menu {
         display: none;
     }
+
+
+    /* discover css */
+
+    #d-main {
+        grid-template-columns: 1fr 3fr;
+    }
+    
+    .f-image {
+        grid-template-columns: 1fr 1fr;
+    } 
+    #main-content {
+        padding: 20px;
+            
+        }
+
+    #sidebar {
+        border-right: #7a7a7a solid 2px;
+    }
+    
 }
