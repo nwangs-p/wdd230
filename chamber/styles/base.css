@@ -584,7 +584,7 @@ form fieldset:nth-of-type(1) {
 
 #submitBtn {
   border: none;
-  background-color: #7a7a7a;
+  background-color: #020000;
   color: #f5f4f4;
   border-radius: 5px;
   padding: .75rem 1.5rem;
@@ -601,7 +601,7 @@ form fieldset:nth-of-type(1) {
 }
 
 .membership-level {
-  background-color: #7a7a7a;
+  background-color: #020000;
   color: #f5f4f4;
   border-radius: 20px;
   width: 80%;
@@ -609,18 +609,18 @@ form fieldset:nth-of-type(1) {
   margin: 0 auto;
   margin-top: 20%;
   margin-bottom: 20%;
-  box-shadow: #020000 10px 10px 15px 10px;
+  box-shadow: #7a7a7a 10px 10px 15px 10px;
 }
 
 .membership-level p:nth-child(2) {
-  border: #020000 solid 1px;
+  border: #f5f4f4 solid 1px;
   padding: 3%;
   font-size: .9rem;
   color: #f5f4f4;
 }
 
 .membership-level p:nth-child(5) {
-  border: #020000 solid 1px;
+  border: #f5f4f4 solid 1px;
   padding: 3%;
   font-size: .9rem;
   color: #f5f4f4;
@@ -628,14 +628,14 @@ form fieldset:nth-of-type(1) {
 }
 
 .membership-level p:nth-child(3) {
-  border: #020000 solid 1px;
+  border: #f5f4f4 solid 1px;
   padding: 3%;
   font-size: .9rem;
   color: #f5f4f4;
 }
 
 .membership-level p:nth-child(4) {
-  border: #020000 solid 1px;
+  border: #f5f4f4 solid 1px;
   padding: 3%;
   font-size: .9rem;
   color: #f5f4f4;
