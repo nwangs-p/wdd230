@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Front End Development, Ifeanyi Nwanga">
+    <meta name="author" content="Nwanga Ifeanyi">
+    <meta property="og:url" content="https://nwangs-p.github.io/wdd230">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ifeanyi's - WDD 230 - Frontend Development">
+    <meta property="og:image" content="https://www.billboardarena.com.ng/index.php/board/Unipole-Sapele-Road-By-Adesuwa-Junction-Facing-Traffic-Benin-city-4">
+    <title>Area King - Chamber of Commerce</title>
+    <link rel="icon" type="image/x-icon" href="images/BlackandWhite.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/larger.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,800&family=Roboto&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <header>
+        <a id="logo-pic" href="">
+            <img src="images/black-white.png" alt="Area King Chamber Logo">
+        </a>
+    
+        <div id="menu"></div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li class="active">
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="discover.html">Discover</a>
+            </li>
+            <li>
+                <a href="">Directory</a>
+            </li>
+            <li>
+                <a href="">Join</a>
+            </li>
+        </ul>
+    </nav>
+    <h1 class="join-h1">Area King Chamber of Commerce Membership Application</h1>
+    <main class="join-content">
+        <div class="join">
+            <form method="get" action="thankyou.html">
+
+                <fieldset>
+                  <legend>Personal Information</legend>
+                  <label for="firstName" class="top">First Name: <input type="text" id="firstName" name="firstName" required></label>
+            
+                  <label for="lastName" class="top">Last Name: <input type="text" id="lastName" name="lastName" required></label>
+                 
+                  <label for="title" class="top">Title/Position: <input type="text" id="title" name="title" pattern="[A-Za-z\- ]{7,}"></label>
+                 
+                  <label for="email" class="top">Email: <input type="email" id="email" name="email" placeholder="example@email.com" required></label>
+                
+                  <label for="phone" class="top">Mobile Phone:   <input type="tel" id="phone" name="phone" required></label>
+                
+                  <label for="businessName" class="top">Business/Organization Name: <input type="text" id="businessName" name="businessName" required></label>
+                </fieldset>
+                
+                <fieldset>
+                  <legend>Business Information</legend>
+                  <label for="membership-level" class="top">Membership Level:</label>
+                    <select id="membership-level" name="membership-level">
+                        <option value="">please select &#9662;</option>
+                            <option value="NP">Non-Profit Membership (Free)</option>
+                            <option value="Bronze">Bronze Membership</option>
+                            <option value="Silver">Silver Membership</option>
+                            <option value="Gold">Gold Membership</option>
+                    </select>
+                
+                
+                  <label for="description" class="top">Business/Organization Description: <textarea id="description" name="description"></textarea></label>            
+                
+                </fieldset>
+    
+                <input type="submit" value="Submit Application"  id="submitBtn">
+<!-- 
+                <input type="hidden" id="timestamp" name="timestamp" value=""> -->
+
+                </form>
+                
+        </div>
+        <div class="membership-level">
+            <aside>
+                <h2>Membership Level Benefits</h2>
+                <p>**NP Membership (Free)**<br>
+                  - Listing in online directory<br>
+                  - Networking opportunities<br>
+                  - Access to member events at discounted rates<br>
+                </p>
+                <p>**Bronze Membership ($250/year)**<br>
+                  - All NP benefits plus:<br>
+                  - Free logo placement on website<br>
+                  - One social media post per month<br>
+                  - 10% discount on advertising<br>
+                </p>
+                <p>**Silver Membership ($500/year)**<br>
+                  - All Bronze benefits plus:<br>
+                  - Priority listing in online directory<br>
+                  - Two social media posts per month<br>
+                  - 20% discount on advertising<br>
+                  - Invitation to exclusive member events<br>
+                </p>
+                <p>**Gold Membership ($1000/year)**<br>
+                  - All Silver benefits plus:<br>
+                  - Featured profile on website homepage<br>
+                  - Monthly blog post opportunity<br>
+                  - 30% discount on advertising<br>
+                  - Sponsorship opportunities at events<br>
+                </p>
+              </aside>
+              
+        </div>
+    </main>
+    <footer style="margin-top: 10%;">
+        <hr>
+        <div class="logo-footer">
+            <img src="images/black-white.png" width="100" alt="footer logo">
+        </div>
+        <div class="footer-icon">
+            <h3>Follow US On</h3>
+            <i class="fa fa-facebook" style="font-size: 120%; color: #020000 ;"></i>
+            <i class="fa fa-instagram" style="font-size:120%; color: #020000 ;"></i>
+            <i class="fa fa-twitter" style="font-size: 120%; color: #020000 ;"></i>
+            <i class="fa fa-linkedin" style="font-size: 120%;"></i>
+        </div>
+        <div class="connect">
+            <h3>Connect with US</h3>
+            <p><i class="fa fa-envelope" style="font-size: 120%;  color: #020000; margin-right: 2px;"></i>ifeanyidiamond5@gmail.com</p>
+            <div class="more-info">
+              <a href="">Terms & Conditions |</a>
+              <a href="">Privacy Policy |</a>
+              <a href="">About Us |</a>
+              <a href="">Contact US </a>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="below-p-footer">
+            <p class="f-p">&copy;2024 Ifeanyi Nwanga - Area Chamber All rights reserved.</p>
+            <p class="f-p2" id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/chamber.js">
+    </script>
+</body>
+</html>
+
+

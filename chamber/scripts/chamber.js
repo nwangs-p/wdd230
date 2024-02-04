@@ -5,6 +5,7 @@ const lastModifiedElement = document.getElementById("lastModified");
 lastModifiedElement.textContent = "Last Modified: " + lastModifiedDate;
 
 
+
 const nav = document.querySelector('.navigation');
 const menuButton = document.querySelector('#menu');
 

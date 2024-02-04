@@ -77,8 +77,8 @@ nav {
 .navigation {
   display: flex;
   list-style: none;
-  margin: 0 auto;
-  max-width: 760px;
+  /* margin: 0 auto; */
+  justify-content: center;  
 }
 
 .navigation li {
@@ -88,7 +88,7 @@ nav {
 .navigation a {
   display: block;
   padding: 0.75rem;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
   padding-left: 30px;
   color:  #020000;
@@ -381,6 +381,10 @@ p {
 
 }
 
+.f-image > img {
+  width: 10%;
+}
+
 @keyframes fade {
   0% {
       opacity: 0;
@@ -394,7 +398,7 @@ p {
 #main-content h2 {
   /* border: #020000 solid 2px; */
   box-shadow: 5px 5px 15px 8px #6f7364;
-  width: 20%;
+  width: 30%;
   padding: 10px ;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -406,6 +410,9 @@ p {
   display: grid;
   grid-template-columns: 1fr;
 } 
+
+
+
 
 figcaption {
   font-size: 1.5rem;
@@ -474,6 +481,167 @@ button:hover {
 /* #websiteVisitIn h1 {
   width:10%;
 } */
+
+
+/* join page css */
+
+.join-h1 {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.join {
+  /* margin-top: 15%; */
+  background-color: #f5f4f4;
+  width: 80%;
+  padding-top: 3%;
+  border-radius: 20px;
+  box-sizing: border-box; 
+  display: flex;
+  margin: 0 auto;
+  box-shadow: #7a7a7a 10px 10px 15px 10px;
+}
+
+form fieldset {
+  margin: 1rem 0;
+  padding: 15px;
+  border: none;
+}
+
+form legend {
+  color: #020000;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-weight: 100;
+  font-size: larger;
+}
+
+form label.top {
+  display: block;
+  padding-top: .9rem;
+}
+
+#membership-level {
+  padding: 2%;
+  font-weight: bold;
+}
+
+option {
+  background-color: #7a7a7a;
+  color: #020000;
+  font-size: 1rem;
+}
+
+form label.top input {
+  display: block;
+  border: solid 1px #7a7a7a;
+  border-radius: 5px;
+  padding: .75rem;
+  color: #020000;
+  width: 100%;
+  /* max-width: 20rem; */
+  background-color: #f5f4f4;
+  /* font-size: large; */
+  
+}
+
+form label.top input:focus {
+  outline: none;
+}
+
+/* form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+} */
+
+textarea {
+  width: 100%;
+  font-size: large;
+}
+
+
+form fieldset:nth-of-type(2) {
+  border-top: #020000 solid 1px;
+  margin-top: 10px;
+  padding-top: .5rem;
+
+}
+
+form fieldset:nth-of-type(2) #description {
+
+  width: 100%;
+  /* height: 100px; */
+  resize: vertical; 
+  
+}
+form fieldset:nth-of-type(1) {
+  border-top: #020000 solid 1px;
+}
+
+
+
+#submitBtn {
+  border: none;
+  background-color: #7a7a7a;
+  color: #f5f4f4;
+  border-radius: 5px;
+  padding: .75rem 1.5rem;
+  margin: 10px 0px;
+  max-width: 20rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 5%;
+}
+
+#submitBtn:hover {
+  transform: scaleX(1.1);
+}
+
+.membership-level {
+  background-color: #7a7a7a;
+  color: #f5f4f4;
+  border-radius: 20px;
+  width: 80%;
+  padding: 5%;
+  margin: 0 auto;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  box-shadow: #020000 10px 10px 15px 10px;
+}
+
+.membership-level p:nth-child(2) {
+  border: #020000 solid 1px;
+  padding: 3%;
+  font-size: .9rem;
+  color: #f5f4f4;
+}
+
+.membership-level p:nth-child(5) {
+  border: #020000 solid 1px;
+  padding: 3%;
+  font-size: .9rem;
+  color: #f5f4f4;
+
+}
+
+.membership-level p:nth-child(3) {
+  border: #020000 solid 1px;
+  padding: 3%;
+  font-size: .9rem;
+  color: #f5f4f4;
+}
+
+.membership-level p:nth-child(4) {
+  border: #020000 solid 1px;
+  padding: 3%;
+  font-size: .9rem;
+  color: #f5f4f4;
+  
+}
+
 
 footer {
   display: block;
