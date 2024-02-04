@@ -609,7 +609,7 @@ form fieldset:nth-of-type(1) {
   margin: 0 auto;
   margin-top: 20%;
   margin-bottom: 20%;
-  box-shadow: #7a7a7a 10px 10px 15px 10px;
+  box-shadow: #7a7a7a 11px 10px 15px 10px;
 }
 
 .membership-level p:nth-child(2) {
