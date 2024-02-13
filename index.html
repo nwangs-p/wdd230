@@ -50,8 +50,8 @@
         <h1>WDD 230: Web Front End Development</h1>
         <section class="card">
             <h2>Learning Activity</h2>
-            <ul>
-                <li>Week 01:
+            <ul id="Links">
+                <!-- <li>Week 01:
                     <a href="week01/media-query.html">Media query</a> |
                     <a href="week01/holygrail.html">Layout</a>
                 </li>
@@ -70,17 +70,28 @@
                     <a href="week04/tablebuild.html"><Table>Table |</Table></a>
                     <a href="week04/form-start/index.html">Form</a>
                 </li>
-                <li>Week 05:</li>
-                <li>Week 06:</li>
+                <li>Week 05:
+                    <a href="https://codepen.io/Ifeanyi-Diamond/pen/oNVyZXY">CSS Pseudo-elements |</a>
+                    <a href="week05/new-ward-members.json">JSON |</a>
+                    <a href="week05/prophets.html">Fetch API | LDS Prophets</a>
+                </li>
+                <li>Week 06:</li> -->
             </ul>
         </section>
-        <section class="card">
+       <section class="card">
             <h2>Information</h2>
-            <ul>
-               <li>Benin City, Edo</li> 
-               <li>Weather:</li>
-               <li><p><span class="label">Page Visits: </span><span class="visits"></span></p></li>
-            </ul>
+            <div class="weather-d">
+                <p>Benin City, Edo State</p>
+                <p>Weather</p>
+                <p><span class="current-temp"></span>&deg;C</p>
+                <figure>
+                    <img src="https://openweathermap.org/img/w/04n.png" alt="icon of current weather condition">
+                    <figcaption></figcaption>
+                </figure>
+                <div class="label">
+                    Number of Visits: <span class="visits"></span>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -97,5 +108,7 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburguer-menu.js"></script>
     <script src="scripts/visit-number.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/links.js"></script>
 </body>
 </html>

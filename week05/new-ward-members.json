@@ -1,0 +1,23 @@
+{
+    "familyName" : "Nwanga",
+    "moveInDate" : "2019-01-23",
+    "numberOfPeople" : 4,
+    "vistiedBYBishopric" : true,
+    "familyMember": [
+        {
+            "name" : "God's Time Nwanga",
+            "gender" : "Male",
+            "birthdate" : "2004-06-9"
+        },
+        {
+            "name": "Ada Nwanga",
+            "gender": "Female",
+            "birthdate": "1999-08-21"
+        },
+        {
+            "name": "Ifeanyi NWanga",
+            "gender": "Male",
+            "birthdate": "2001-01-01"
+        }
+    ]
+}

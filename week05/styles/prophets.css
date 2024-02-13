@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+header, footer{
+    text-align: center;
+}
+
+#cards{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 30px #777;
+    font-family: 'Source Sans 3', sans-serif;;
+}
+
+h1, h2{
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+}
+
+h1{
+    padding: 1rem;
+}
+
+section{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(159, 159, 197);
+    border: 1px solid black;
+}
+
+section p{
+    line-height: 1.5rem;
+}
+
+footer{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+    color: black;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+img{
+    width: 100%;
+}

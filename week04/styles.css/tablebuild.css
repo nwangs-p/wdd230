@@ -1,9 +1,9 @@
 body {
     display: flex;
-    align-items: center; /* Centrar verticalmente */
-    justify-content: center; /* Centrar horizontalmente */
-    min-height: 100vh; /* Asegura que ocupe al menos el 100% del alto de la ventana */
-    margin: 0; /* Elimina márgenes por defecto del body */
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh; 
+    margin: 0;
 }
 
 table{    
@@ -11,7 +11,6 @@ table{
     border: 1px solid black;
 }
 
-/* SÓLO ABARCA EL ENCABEZADO */
 thead :first-child th{
     background-color: black;
     color: white;
@@ -23,12 +22,12 @@ thead tr:nth-child(2){
     color: white;
 }
 
-/* Establece el fondo de la línea de zebra solo para la segunda fila en tbody */
+
 tbody tr:nth-child(2) {
-    background-color: #eeeeee; /* Utiliza el color definido en :root */
+    background-color: #eeeeee; 
 }
 
-/* CELDA VACÍA  <td>&nbsp;</td>*/
+
 thead tr > td {
     background-color: black;
     border: none;
