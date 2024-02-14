@@ -56,3 +56,4 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem('lastVisitDate', currentDate);
     }
 });
+

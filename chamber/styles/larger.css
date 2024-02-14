@@ -139,4 +139,14 @@
         /* margin-left: 20px; */
         padding-bottom: 20px;
     }
+
+    .navigation-buttons{
+        display: none;
+    }
+
+    .reviews {
+        flex: 0 0 calc(33.33% - 20px);
+    }
+
+    
 }
