@@ -1,7 +1,9 @@
-let baseURL = "https://nwangs-p.github.io/wdd230/";
-let linksURL = "chamber/data/members.json";
 
-const parent6Card = document.querySelector(".mcard1");
+let baseUrl = "https://nwangs-p.github.io/wdd230/";
+
+let linkUrl = "chamber/data/members.json";
+
+const parent6Card = document.querySelector(".parent6-card");
 
 
 const showGoldMembers = (goldMembers) => {
@@ -12,11 +14,7 @@ const showGoldMembers = (goldMembers) => {
         const img = document.createElement("img");
         img.setAttribute('src', goldMembers.image);
         img.setAttribute('alt', `img of ${goldMembers.name}`); 
-        img.setAttribute('loading', 'lazy');
-        img.setAttribute('width', '136');
-        img.setAttribute('height', '136');
-        img.style.boxShadow = "5px 5px 10px rgba(0, 0, 0, 0.5)";
-
+    
         const h4 = document.createElement("h4");
         h4.innerHTML = goldMembers.name;
 
@@ -33,8 +31,8 @@ const showGoldMembers = (goldMembers) => {
         para4.textContent = goldMembers.url;
 
 
-        section.append(img, h4, para1, para2, para3, para4);
-        parent6Card.appendChild(section);
+        div.append(img, h4, para1, para2, para3, para4);
+        parent6Card.appendChild(div);
     });
 }
 

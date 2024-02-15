@@ -1,4 +1,4 @@
-let baseURL = "https://code-lova.github.io/wdd230/";
+let baseURL = "https://nwangs-p.github.io/wdd230/";
 
 let linksURL = "data/links.json"
 

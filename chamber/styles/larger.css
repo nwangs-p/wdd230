@@ -140,13 +140,63 @@
         padding-bottom: 20px;
     }
 
-    .navigation-buttons{
+    /* .navigation-buttons{
         display: none;
-    }
+    } */
 
     .reviews {
         flex: 0 0 calc(33.33% - 20px);
     }
 
     
+    
+
+    .cardview{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cardview section p{
+        margin: 0px;
+    }
+
+    /* When button toggled to list in directory page*/
+    .list{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin: 0;
+        padding: 0.15rem;
+    }
+    
+    .list section > * {
+        margin: 0 1rem;
+    }
+    
+    .list section img {
+        display: none; /* smaller viewports only */
+    }
+
+    .list section p {
+        font-weight: 500;
+        font-size: smaller;
+        margin: 20px;
+    }
+ 
+    #area-special > div {
+        margin: 10px;
+        flex: 1 1 calc(50% - 50px); /* Two columns on larger screens */
+        max-width: calc(50% - 50px); /* Two columns on larger screens */
+      }
+
+      .review-container {
+        width: 30%;
+      }
+      
+
 }

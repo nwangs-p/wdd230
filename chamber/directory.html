@@ -29,7 +29,7 @@
     <nav>
         <ul class="navigation">
             <li class="active">
-                <a href="">Home</a>
+                <a href="index.html">Home</a>
             </li>
             <li>
                 <a href="discover.html">Discover</a>
@@ -42,12 +42,76 @@
             </li>
         </ul>
     </nav>
-    <h1>Member Reviews</h1>
-    <main>
+    
+    <main class="directory-p">
+        <h1>Our Members</h1>
+        <div class="members">
+                <div class="togglemenu">
+                    <button id="grid">⏹️Grid</button>
+                    <button id="list">📄List</button>
+                </div>
+                <div class="cardview"></div>
+        </div>
+        <h1>Clients Reviews</h1>
+        <div class="review-container">
+            <div class="review">
+                <img src="images/member3.jpg" alt="memeber of chamber review">
+                <h2>Riley</h2>
+                <p>"Fantastic experience shopping at Rolen! The staff is friendly, and they have a great selection of products. The store's commitment to quality and customer service truly stands out."</p>
+            </div>
+            <div class="review">
+                <img src="images/member2.jpg" alt="memeber of chamber reviewmemeber of chamber review">
+                <h2>Frank</h2>
+                <p>"Impressed with the innovation and expertise of Area King. Their tech solutions are cutting-edge, and the team is dedicated to delivering top-notch services."</p>
+            </div>
+            <div class="review">
+                <img src="images/member4.jpg" alt="memeber of chamber review">
+                <h2>Chen</h2>
+                <p>"Outstanding support from Uratech Limited. Their team's professionalism and attention to detail exceeded our expectations."</p>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
 
-
+        <div style="text-align:center" class="reviewbtn">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        <h1>Our Area of Specialization</h1>
+       <div id="area-special" >
+            <div class="local">
+                <h4> <i class="fa fa-shopping-bag" style="margin-right: 2px; font-size: 20px;"></i>Local Business</h4>
+                <a href="">Retail stores</a>
+                <a href="">Grocery stores</a>
+                <a href="">Boutiques</a>
+            </div>
+            <div class="professional">
+                <h4><i class="fa fa-briefcase" style="margin-right: 2px; font-size: 20px;"></i>professional Services</h4>
+                <a href="">Digital marketing</a>
+                <a href="">Consulting service</a>
+                <a href="">Law firms</a>
+            </div>
+            <div class="tech">
+                <h4><i class="fa fa-laptop" style="margin-right: 2px; font-size: 20px;"></i>Technology</h4>
+                <a href="">Tech startups</a>
+                <a href="">Innovation hubs</a>
+                <a href="">Software development companies</a>
+            </div>
+            <div class="Manufacture">
+                <h4><i class="fa fa-industry" style="margin-right: 2px; font-size: 20px;"></i>Manufacturing and Healthcare Service</h4>
+                <a href="">Manufacturing plan</a>
+                <a href="">Logistic companies</a>
+                <a href="">Medical practitioners</a>
+                <a href="">Hospitals and clinics</a>
+            </div>
+       </div>
+        
+        
 
     </main>
+
     <footer style="margin-top: 10%;">
         <hr>
         <div class="logo-footer">
