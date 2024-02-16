@@ -803,6 +803,7 @@ main .togglemenu button:hover {
   margin: auto;
   text-align: center;
   width: 60%;
+  position: relative;
 }
 
 .review {
@@ -829,8 +830,10 @@ main .togglemenu button:hover {
   margin-top: 50px;
   padding: 0px 20px 0px 20px;
 }
+
 .prev, .next {
   cursor: pointer;
+  position:absolute;
   top: 50%;
   width: auto;
   padding: 16px;
@@ -845,9 +848,15 @@ main .togglemenu button:hover {
 }
 
 .next {
-  right: 0;
+  left: 100%;
   border-radius: 3px 0 0 3px;
+  
 }
+
+.prev {
+  right: 100%;
+}
+
 /* 
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);

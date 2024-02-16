@@ -40,38 +40,38 @@
         {
             "name": "Home Depot",
             "address": "1011 Oak Street, Anytowm, CA 98765",
-            "Phone": "(555) 555-5555",
+            "phone": "(555) 555-5555",
             "url": "https://www.homedepot.com/",
             "image": "Images/home-depot.png",
             "level": "Sliver",
-            "Country": "United States"
+            "country": "United States"
         },
         {
             "name": "Lowe's",
             "address": "1213 Pine Street, Anytowm, CA 98765",
-            "Phone": "(555) 555-5555",
+            "phone": "(555) 555-5555",
             "url": "https://www.lowes.com/",
             "image": "Images/lowe.png",
             "level": "Sliver",
-            "Country": "United States"
+            "country": "United States"
         },
         {
             "name": "Starbucks",
             "address": "1415 Spruce Street, Anytowm, CA 98765",
-            "Phone": "(555) 555-5555",
+            "phone": "(555) 555-5555",
             "url": "https://www.starbucks.com/",
             "image": "Images/starbucks.png",
             "level":"Gold",
-            "Country": "United States"
+            "country": "United States"
         },
         {
             "name": "Target",
             "address": "1617 Walnut Street, Anytowm, CA 98765",
-            "Phone": "(555) 555-5555",
+            "phone": "(555) 555-5555",
             "url": "https://www.target.com/",
             "image": "Images/target.png",
             "level": "Sliver",
-            "Country": "United States"
+            "country": "United States"
         }
         
     ]
