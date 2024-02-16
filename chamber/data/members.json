@@ -3,39 +3,39 @@
         {
             "name": "Acme Corporation",
             "address": "123 Main Street, Anytowm, CA 98765",
-            "Phone": "(555) 555-5555",
+            "phone": "(555) 555-5555",
             "url": "",
             "image": "Images/Acme.png",
             "level": "Gold",
-            "Country": "United States"
+            "country": "United States"
         },
         {
             "name": "Uractech Limited",
             "address": "First East Circular, 47, Benin City",
-            "Phone": "08032304048",
-            "url": "",
+            "phone": "08032304048",
+            "url": "www.uratch.com",
             "image": "Images/uratech.png",
             "level": "Sliver",
-            "Country": "Nigeria"
+            "country": "Nigeria"
         },
         {
             "name": "Best Buy",
             "address": "456 Elm Street, Anytowm, CA 98765",
-            "Phone": "(555) 555-5555",
+            "phone": "(555) 555-5555",
             "url": "https://www.bestbuy.com/",
             "image": "Images/best.jpg",
             "level": "Bronze",
-            "Country": "United States"
+            "country": "United States"
         
         },
         {
             "name": "Costco Wholesale",
             "address": "789 Maple Street, Anytowm, CA 98765",
-            "Phone": "(555) 555-5555",
+            "phone": "(555) 555-5555",
             "url": "https://www.costco.com/",
             "image": "Images/costco.png",
             "level": "Gold",
-            "Country": "United States"
+            "country": "United States"
         },
         {
             "name": "Home Depot",
