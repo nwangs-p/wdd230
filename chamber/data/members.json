@@ -14,7 +14,7 @@
             "address": "First East Circular, 47, Benin City",
             "phone": "08032304048",
             "url": "www.uratch.com",
-            "image": "Images/uratech.png",
+            "image": "Images/explore.jpg",
             "level": "Sliver",
             "country": "Nigeria"
         },
@@ -23,7 +23,7 @@
             "address": "456 Elm Street, Anytowm, CA 98765",
             "phone": "(555) 555-5555",
             "url": "https://www.bestbuy.com/",
-            "image": "Images/best.jpg",
+            "image": "Images/explore.jpg",
             "level": "Bronze",
             "country": "United States"
         
@@ -33,7 +33,7 @@
             "address": "789 Maple Street, Anytowm, CA 98765",
             "phone": "(555) 555-5555",
             "url": "https://www.costco.com/",
-            "image": "Images/costco.png",
+            "image": "Images/explore.jpg",
             "level": "Gold",
             "country": "United States"
         },
