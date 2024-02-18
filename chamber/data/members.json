@@ -5,7 +5,7 @@
             "address": "123 Main Street, Anytowm, CA 98765",
             "phone": "(555) 555-5555",
             "url": "",
-            "image": "Images/Acme.png",
+            "image": "images/Acme.png",
             "level": "Gold",
             "country": "United States"
         },
@@ -14,7 +14,7 @@
             "address": "First East Circular, 47, Benin City",
             "phone": "08032304048",
             "url": "www.uratch.com",
-            "image": "Images/uratech.png",
+            "image": "images/uratech.png",
             "level": "Sliver",
             "country": "Nigeria"
         },
@@ -23,7 +23,7 @@
             "address": "456 Elm Street, Anytowm, CA 98765",
             "phone": "(555) 555-5555",
             "url": "https://www.bestbuy.com/",
-            "image": "Images/best.jpg",
+            "image": "images/best.jpg",
             "level": "Bronze",
             "country": "United States"
         
@@ -33,7 +33,7 @@
             "address": "789 Maple Street, Anytowm, CA 98765",
             "phone": "(555) 555-5555",
             "url": "https://www.costco.com/",
-            "image": "Images/costco.png",
+            "image": "images/costco.png",
             "level": "Gold",
             "country": "United States"
         },
@@ -42,7 +42,7 @@
             "address": "1011 Oak Street, Anytowm, CA 98765",
             "phone": "(555) 555-5555",
             "url": "https://www.homedepot.com/",
-            "image": "Images/home-depot.png",
+            "image": "images/home-depot.png",
             "level": "Sliver",
             "country": "United States"
         },
@@ -51,7 +51,7 @@
             "address": "1213 Pine Street, Anytowm, CA 98765",
             "phone": "(555) 555-5555",
             "url": "https://www.lowes.com/",
-            "image": "Images/lowe.png",
+            "image": "images/lowe.png",
             "level": "Sliver",
             "country": "United States"
         },
@@ -60,7 +60,7 @@
             "address": "1415 Spruce Street, Anytowm, CA 98765",
             "phone": "(555) 555-5555",
             "url": "https://www.starbucks.com/",
-            "image": "Images/starbucks.png",
+            "image": "images/starbucks.png",
             "level":"Gold",
             "country": "United States"
         },
@@ -69,7 +69,7 @@
             "address": "1617 Walnut Street, Anytowm, CA 98765",
             "phone": "(555) 555-5555",
             "url": "https://www.target.com/",
-            "image": "Images/target.png",
+            "image": "images/target.png",
             "level": "Sliver",
             "country": "United States"
         }

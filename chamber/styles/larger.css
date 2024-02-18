@@ -1,10 +1,18 @@
-@media screen and (min-width: 720px) {
+@media screen and  (min-width: 720px) {
 
     
     .spotlights {
         display: flex;
         padding: 5%;
     }
+/* 
+   .line1 {
+    left: 30%;
+   } */
+
+   .line {
+    width: 90%;
+   }
 
    .founding,
    .mission,
@@ -68,6 +76,11 @@
         border-radius: 2%;
 
     }
+
+    .c-events h1 {
+        margin: 1% 0% 2% 4%;
+      }
+    
 
     #menu {
         display: none;
