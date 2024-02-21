@@ -8,6 +8,7 @@
 
     #spotlight-container{
         margin-bottom: 0%;
+        margin-top: 0%;
     }
 
     /* #hero-pic {
@@ -258,6 +259,7 @@
         margin-left: 2%;
         height: auto;
         flex: 1;
+        padding-bottom: 2%;
       }
 
       .ideas {

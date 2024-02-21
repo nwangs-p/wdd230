@@ -254,6 +254,7 @@ p {
   #spotlight-container{
     margin-bottom: 3%;
     padding: 0%;
+    margin-top: 12%;
   }
 
   #spotlight-container h1 {
@@ -337,7 +338,7 @@ p {
   }
 
   .c-events {
-    position: relative;
+    margin-top: 10%;;
   }
 
   .c-events h1 {
@@ -349,6 +350,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
  }
 
  .event-child, .event-child2, .event-child3 {
@@ -417,6 +419,7 @@ p {
 .business-promotion {
   display: grid;
   grid-template-columns: 1fr;
+  margin-top: 10%;
 }
 
 .business-promotion img {
@@ -441,8 +444,9 @@ p {
 .promotion1, .promotion2, .promotion3 {
   background-color: #f5f4f4;
   width: 50%;
-  height: 180px;
+  height: 100%;
   padding: 2%;
+  padding-bottom: 5%;
   margin-top: 3%;
   border: #020000 solid 1px;
   margin-right: auto;
@@ -480,7 +484,7 @@ p {
 #visit-us {
   display: grid;
   grid-template-columns: 1fr;
-  background-image: url("/chamber/images/visit.jpg");
+  background-image: url("../chamber/images/visit.jpg");
   background-size: cover; 
   background-repeat: no-repeat; 
   background-attachment: fixed;
