@@ -484,7 +484,7 @@ p {
 #visit-us {
   display: grid;
   grid-template-columns: 1fr;
-  background-image: url("./chamber/images/visit.jpgtr");
+  background-image: url("/chamber/images/visit.jpg");
   background-size: cover; 
   background-repeat: no-repeat; 
   background-attachment: fixed;
