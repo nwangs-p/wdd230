@@ -224,12 +224,12 @@
 
       .sales-pro {
         margin-top: 10%;
-        margin-bottom:0.5%;
+        padding-bottom: 0%;
       }
 
-      .sales-pro img {
+      /* .sales-pro img {
         margin-bottom: 3%;
-      }
+      } */
 
       .promotion1, .promotion2, .promotion3 {
         margin-left: 2%;
