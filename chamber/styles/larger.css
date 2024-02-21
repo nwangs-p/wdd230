@@ -220,16 +220,19 @@
       .sales-pro > div {
         display: flex;
         margin: 3%;
+        
       }
 
       .sales-pro {
         margin-top: 10%;
         padding-bottom: 0%;
+        height: 87.4%;
       }
 
-      /* .sales-pro img {
-        margin-bottom: 3%;
-      } */
+      .sales-pro img {
+        height: auto;
+        margin-top: 2%;
+      }
 
       .promotion1, .promotion2, .promotion3 {
         margin-left: 2%;
