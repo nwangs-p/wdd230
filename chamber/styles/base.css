@@ -484,7 +484,7 @@ p {
 #visit-us {
   display: grid;
   grid-template-columns: 1fr;
-  background-image: url("/WDD230/chamber/images/visit.jpg");
+  background-image: url("/week03/images/hero-large.webp");
   background-size: cover; 
   background-repeat: no-repeat; 
   background-attachment: fixed;
