@@ -13,6 +13,7 @@
     <link rel="icon" type="image/x-icon" href="images/BlackandWhite.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-z ORxWq5dB+5z9mPy0nfvnGjzp+VkXiR0vGo+GTzKlkX0WG21wL2OnDnEx+QzNWlpnz9yRBeg+BkgZ+p3m9Rl0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="styles/base.css">
     <link rel="stylesheet" type="text/css" href="styles/larger.css">
     
@@ -76,11 +77,36 @@
         <div class="exp-container">
             <h2>Ignite innovation, embrace opportunity, and explore the boundless horizons of business possibilities with us.</h2>
             <img class="image" src="images/explore.jpg" alt="">
+        </div>
+        <div class="business-promotion">
+            <div class="pro-img">
+                <img src="images/Sales-Promotion.jpg" alt="sale business promotion">
             </div>
-            <div  class="spotlight h1">
-                <h1>Company spotlights</h1>
-                <div class="line1"></div>
+            <div class="sales-pro">
+                <h1>Promotion For Your Business.</h1>
+                <div>
+                    <div class="promotion1">
+                        <i class="fa fa-soild fa-lightbulb-o text-primary"></i>
+                        <h4>Creative Always</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicindio incidu</p>
+                    </div>
+                    <div class="promotion2">
+                        <i class="fa fa-solid fa-pencil fa-lg text-danger"></i>
+                        <h4>Express Customization</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicindio incidu</p>
+                    </div>
+                    <div class="promotion3">
+                        <i class="fa fa-solid fa-gear fa-spin text-warning"></i>
+                        <h4>Premium Integrations</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicindio incidu</p>
+                    </div>
+                </div>
             </div>
+        </div>
+        <div  class="spotlight h1">
+            <h1>Company spotlights</h1>
+            <div class="line1"></div>
+        </div>
         <section class="spotlights">
             <div class="founding">
                 <img class="founding-pic" src="images/foundign-story.jpg" alt="">
@@ -116,39 +142,21 @@
                 </div>
             </div>
         </div>
-        <section>
-            <h2>Information</h2>
-            <div class="weather-d">
-                <p>Benin City, Edo State</p>
-                <p>Weather</p>
-                <p><span class="current-temp"></span>&deg;C</p>
-                <figure>
-                    <img src="https://openweathermap.org/img/w/04n.png" alt="icon of current weather condition">
-                    <figcaption></figcaption>
-                </figure>
-                <div class="label">
-                    Number of Visits: <span class="visits"></span>
-                </div>
-            </div>
+      
+        <section class="weather">
+            <h2>Weather Information</h2>
+            <p>Benin City, Nigeria</p>
+            <button id="weather-show">Show Weather Info</button>
+            <div id="weather-info"></div>
+            <p id="visit-message"></p>
         </section>
-        <div class="business-promotion">
-            <img src="images/Sales-Promotion.jpg" alt="sale business promotion">
-            <div class="sales-pro">
-                <h1>Promotion For Your Business</h1>
-                <div class="promotion1">
-                    <i class="material-icons" style="color: #020000; font-size: 24px;">lightbulb</i>
-                    <h4>Creative Always</h4>
-
-                </div>
-                <div class="promotion2">
-                    <i class="material-icons" style="color: #020000; font-size: 24px;">edit</i>
-                    <h4>Express Customization</h4>
-                </div>
-                <div class="promotion3">
-                    <h4>Premium Integrations</h4>
-                </div>
+        <div class="parent6">
+            <div>
+                <h2>Our High Valued Gold Members</h2>
             </div>
+            <div class="parent6-card"></div>
         </div>
+
     </main>
     <footer style="margin-top: 10%;">
         <hr>
@@ -179,6 +187,9 @@
         </div>
     </footer>
     <script src="scripts/chamber.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/members.js"></script>
 </body>
 </html>
 

@@ -5,7 +5,10 @@
         display: flex;
         padding: 5%;
     }
-/* 
+
+    /* #hero-pic {
+        height: 200px;
+    } */
    .line1 {
     left: 30%;
    } */
@@ -207,9 +210,50 @@
         max-width: calc(50% - 50px); /* Two columns on larger screens */
       }
 
-      .review-container {
+      .business-promotion {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two equal-sized columns */
+        /* grid-gap: 0; */
+        margin: 5%;
+      }
+
+      .sales-pro > div {
+        display: flex;
+        margin: 3%;
+      }
+
+      .sales-pro {
+        margin-top: 10%;
+        margin-bottom:0.5%;
+      }
+
+      .sales-pro img {
+        margin-bottom: 3%;
+      }
+
+      .promotion1, .promotion2, .promotion3 {
+        margin-left: 2%;
+        height: auto;
+        flex: 1;
+      }
+
+      /* .pro-img,
+      .sales-pro {
+        margin: 0;
+        padding: 0;
+    }
+
+    .pro-img,
+    .sales-pro {
+        box-sizing: border-box;
+    } */
+
+    
+   
+        .review-container {
         width: 30%;
       }
-      
+
+  
 
 }
