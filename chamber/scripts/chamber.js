@@ -6,13 +6,13 @@ lastModifiedElement.textContent = "Last Modified: " + lastModifiedDate;
 
 
 
-const nav = document.querySelector('.navigation');
-const menuButton = document.querySelector('#menu');
+    const nav = document.querySelector('.navigation');
+    const menu = document.getElementById('menu');
 
-menuButton.addEventListener('click', () => {
-    nav.classList.toggle('show');
-    menuButton.classList.toggle('show');
-})
+    menu.addEventListener('click', () => {
+        nav.classList.toggle('show');
+        menu.classList.toggle('show');
+    });
 
 document.addEventListener('DOMContentLoaded', function () {
     // Check if localStorage is supported

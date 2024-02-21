@@ -484,11 +484,12 @@ p {
 #visit-us {
   display: grid;
   grid-template-columns: 1fr;
-  background-image: url("/week03/images/hero-large.webp");
+  background-image: url("./chamber/images/visit.jpgtr");
   background-size: cover; 
   background-repeat: no-repeat; 
   background-attachment: fixed;
   color: #f5f4f4;
+  /* background-color: #020000; */
   padding-bottom: 8%;
   padding-top: 4%;
   margin-top: 3%;
@@ -538,6 +539,21 @@ p {
 .text-warning {
   color: #020000; /* Change to your desired color */
   font-size: 40px;
+}
+
+.banner{
+  text-align: center;
+  background-color: #f5f4f4;
+  border: #020000 solid 1px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+#close {
+  float: right;
+  border: none;
+  cursor: pointer;
 }
 
 
