@@ -6,12 +6,16 @@
         padding: 5%;
     }
 
+    #spotlight-container{
+        margin-bottom: 0%;
+    }
+
     /* #hero-pic {
         height: 200px;
     } */
    .line1 {
     left: 30%;
-   } */
+   } 
 
    .line {
     width: 90%;
@@ -22,8 +26,28 @@
     .benefit {
         margin-right: 2%;
         flex: 1; /*take equal available space within the flex container*/
+        margin-bottom: 0%;
     }
 
+    #visit-us {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        margin: 2%;
+    }
+
+    .reason5 {
+        grid-column: 3/4;
+        grid-row: 1/3;
+    }
+
+    .reason5 button {
+        margin-top: 10%;
+        font-weight: bold;
+    }
+
+    .pro-img img {
+        padding-top: 10%;
+    }
 
     nav ul {
         display: flex;
@@ -41,7 +65,7 @@
     .show li {
         display: block;
         border-bottom: transparent;
-        border-right: 1px solid #ccc;
+        border-right: 1px solid #7a7a7a;
     }
 
     #hero-msg h2  {
@@ -102,7 +126,7 @@
     } 
 
     .lazy-img {
-        max-width: auto; /* Adjust this value as needed */
+        max-width: 100%; /* Adjust this value as needed */
         width: 100%; /* Allow the image to scale while maintaining its aspect ratio */
         height: auto;
       
@@ -214,30 +238,46 @@
         display: grid;
         grid-template-columns: 1fr 1fr; /* Two equal-sized columns */
         /* grid-gap: 0; */
-        margin: 5%;
+        margin: 0% 5% 2% 5%;
       }
 
       .sales-pro > div {
         display: flex;
         margin: 3%;
+        margin-top: 1%;
         
       }
 
       .sales-pro {
         margin-top: 10%;
         padding-bottom: 0%;
-        height: 87.4%;
-      }
-
-      .sales-pro img {
-        height: auto;
-        margin-top: 2%;
+        height: 82%;
       }
 
       .promotion1, .promotion2, .promotion3 {
         margin-left: 2%;
         height: auto;
         flex: 1;
+      }
+
+      .ideas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 2%;
+        margin-right: 2%;
+        /* margin-top: 3%; */
+      }
+
+      .idea-msg {
+        width: 100%;
+        padding-left: 20%;
+        padding-top: 15%;
+        height: 99%;
+      }
+
+      .idea-msg button {
+        margin-top: 10%;
+        margin-left: 0%;
       }
 
       /* .pro-img,

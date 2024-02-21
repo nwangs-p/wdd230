@@ -202,7 +202,7 @@ p {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1/4;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
     margin-bottom: 1px;
 }
 
@@ -224,12 +224,13 @@ p {
     justify-content: center;
     align-items: center;
     height: 100px; /* Adjust the height as needed */
-    margin-bottom: 3%;
-    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-top: 2%;
     background-color: #f5f4f4;
     height: 300px;
     padding: 0px 5% 0px 5%;
     color: #020000;
+    
   }
 
   .exp-container h2 {
@@ -250,24 +251,24 @@ p {
   } */
 
   /* Style for the chart description */
+  #spotlight-container{
+    margin-bottom: 3%;
+    padding: 0%;
+  }
+
+  #spotlight-container h1 {
+    text-align: center;
+  }
+
   .spotlights {
     display: block;
-    padding: 15%;
+    /* padding: 15%; */
     padding-bottom: 2%;
   
   }
 
 
- .spotlight {
-  position: relative;
- }
 
- .spotlight  h1 {
-  margin-left: 4%;
- }
-
-
- 
   .founding,
   .mission,
   .benefit {
@@ -275,49 +276,42 @@ p {
     flex: 1; /*take equal available space within the flex container*/
   }
 
-   
   .founding,
   .mission,
   .benefit p {
 
   font-size: large;
 
+
 }
   
   .founding {
-    background-color: #f5f4f4;
-    color: #020000;
+    /* background-color: rgba(12, 12, 12, 0.9); */
+    background-color: #020000;
+    color: #f5f4f4;
     padding: 10px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    box-shadow: 8px 8px 8px 5px #a3a2a2;
-    border-radius: 10%;
+    /* box-shadow: 8px 8px 8px 5px #a3a2a2; */
+    margin-bottom: 2%;
   }
 
-  .founding:hover {
-    transform: scale(1.1);
-  }
-  
   .founding-pic {
     max-width: 100%;
     height: auto; /* Adjusted height to be auto */
   }
   
   .mission {
-    background-color: #f5f4f4;
-    color: #020000;
+    /* background-color: rgba(12, 12, 12, 0.9); */
+    background-color: #020000;
+    color: #f5f4f4;
     padding: 10px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    box-shadow: 8px 8px 8px 5px #a3a2a2;
-    border-radius: 10%;
-  
-  }
-  
-  .mission:hover {
-    transform: scale(1.1);
+    /* box-shadow: 8px 8px 8px 5px #a3a2a2; */
+    margin-bottom: 2%;
   }
 
   .mission-pic {
@@ -326,19 +320,15 @@ p {
   }
   
   .benefit {
-    background-color: #f5f4f4;
-    color: #020000;
+    /* background-color: rgba(12, 12, 12, 0.9); */
+    background-color: #020000;
+    color: #f5f4f4;
     padding: 10px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    box-shadow: 8px 8px 8px 5px #a3a2a2;
-    border-radius: 10%;
-  
-  }
-
-  .benefit:hover {
-    transform: scale(1.1);
+    /* box-shadow: 8px 8px 8px 5px #a3a2a2; */
+    margin-bottom: 2%;
   }
   
   .benefit-pic {
@@ -351,35 +341,8 @@ p {
   }
 
   .c-events h1 {
-    margin: 15% 0% 10% 4%;
-  }
-
-  .line4 {
-    position: absolute;
-    top: 11%;
-    width: 40%;
-    height: 2px;
-    background-color: #7a7a7a; /* Adjust the color as needed */
-  }
-  
-  .line4 {
-    right: 0;
-    /* left: 70%; */
-  }
-  
-  .line4::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    width: 20px; /* Adjust the circle size as needed */
-    height: 20px;
-    border-radius: 50%;
-    background-color: #7a7a7a/* Adjust the color as needed */
-  }
-  
-  .line4::before {
-    left: 0;
-    transform: translate(-50%, -50%);
+    margin: 0% 0% 0% 0%;
+    text-align: center;
   }
 
  .c-event {
@@ -388,19 +351,18 @@ p {
   align-items: center;
  }
 
- .event-child,.event-child2,.event-child3 {
+ .event-child, .event-child2, .event-child3 {
   /* flex: 1; */
   margin: 2%;
   border: #e7e1e1 solid 5px;
   background-color: #f5f4f4;
-  border-radius: 100px;
   width: 50%; /* Adjust the width as needed */
-  /* height: 50%; */
+  height: auto;
   text-align: center;
   font-size: 13px;
   font-weight: bold;
   padding-top: 20px;
- }
+}
 
  .event-child:hover,
  .event-child2:hover,
@@ -441,9 +403,9 @@ p {
   outline: none; 
 }
 
-.weather > button:focus {
+/* .weather > button:focus {
   outline-offset: none;
-}
+} */
 
 .weather > button:hover {
   color: #f5f4f4;
@@ -452,25 +414,29 @@ p {
 
 }
 
+.business-promotion {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .business-promotion img {
   width: 100%;
   height: auto;
-  margin-top: 10%;
+  /* padding-top: 10%; */
 }
 
 .sales-pro{
   /* border: #f5f4f4 solid 5px; */
   text-align: center;
-  background-color: #f5f4f4;
-  color: #020000;
+  /* background-color: rgba(12, 12, 12, 0.9); */
+  background-color: #020000;
+  color: #f5f4f4;
   padding-bottom: 1%;
 }
 
 .sales-pro > h1 {
   margin-bottom: 10%;
 }
-
-
 
 .promotion1, .promotion2, .promotion3 {
   background-color: #f5f4f4;
@@ -485,20 +451,88 @@ p {
   color: #020000;
 }
 
+.idea-msg {
+  background-color: #f5f4f4;
+  /* text-align: center; */
+  padding: 10%;
+}
+
+.idea-msg button {
+  margin-left: 4%;
+  border: 2px solid #020000;
+  background-color: #020000;
+  color: #f5f4f4;
+  padding: 2%;
+  border-radius: 50px;
+}
+
+.idea-msg button:hover {
+  border: #020000 solid 2px;
+  color: #020000;
+  background-color: #f5f4f4;
+}
+
+.idea-img img {
+  width: 100%;
+  height: auto;
+}
+
+#visit-us {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-image: url("/chamber/images/visit.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  color: #f5f4f4;
+  padding-bottom: 8%;
+  padding-top: 4%;
+  margin-top: 3%;
+}
+
+#visit-us h1 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.reason1,
+.reason2,
+.reason3,
+.reason4 {
+  margin-right: 5%;
+}
+
+.reason1,
+.reason2,
+.reason3,
+.reason4,
+.reason5 {
+  margin-left: 8%;
+}
+
+.reason5 button {
+  padding: 3%;
+  border-radius: 20px;
+  background-color: #020000;
+  border: #f5f4f4 solid 1px;
+  color: #f5f4f4;
+}
+
+
 .text-primary {
-  color: #f7e082;
+  color: #020000;
   font-size: 40px;
 }
 
 /* Custom color for the pencil icon */
 .text-danger {
-  color: #e74c3c; /* Change to your desired color */
+  color: #020000; /* Change to your desired color */
   font-size: 40px;
 }
 
 /* Custom color for the gear icon */
 .text-warning {
-  color: #f39c12; /* Change to your desired color */
+  color: #020000; /* Change to your desired color */
   font-size: 40px;
 }
 
