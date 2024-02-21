@@ -13,7 +13,7 @@ async function fetchWeatherData() {
         // Extract required information
         const currentTemperature = currentWeatherData.main.temp;
         const currentWeatherDescription = currentWeatherData.weather[0].description;
-        const oneDayForecast = forecastData.list.slice(0, 4); // Get data for the first day (8 data points per day)
+        const oneDayForecast = forecastData.list.slice(0, 8*2); // Get data for the first day (8 data points per day)
 
         // Display weather information
         const weatherInfoContainer = document.getElementById('weather-info');
