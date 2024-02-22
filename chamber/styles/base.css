@@ -484,12 +484,12 @@ p {
 #visit-us {
   display: grid;
   grid-template-columns: 1fr;
-  background-image: url("/chamber/images/advertising-business-promotion.webps");
+  /* background-image: url("/chamber/images/advertising-business-promotion.webps"); */
   background-size: cover; 
   background-repeat: no-repeat; 
   background-attachment: fixed;
   color: #f5f4f4;
-  /* background-color: #020000; */
+  background-color: #020000;
   padding-bottom: 8%;
   padding-top: 4%;
   margin-top: 3%;
