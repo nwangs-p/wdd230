@@ -20,7 +20,7 @@ async function fetchWeatherData() {
         weatherInfoContainer.innerHTML = `
             <p>Current Temperature: ${currentTemperature}&#8451;</p>
             <p>Description: ${currentWeatherDescription}</p>
-            <h2>One Day Forecast:</h2>
+            <h2>Three Day Forecast:</h2>
             <p>${forecastData.city.name}, ${forecastData.city.country}</p>
             <p>
                 ${oneDayForecast.map(item => `<p>Date:${item.dt_txt}  Temp:${item.main.temp} &#8451; Description:${item.weather[0].description} </p>`).join('')}
