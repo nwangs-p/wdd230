@@ -481,7 +481,7 @@ p {
   height: auto;
 }
 
-#visit-us {
+#reasons-visit-us {
   display: grid;
   grid-template-columns: 1fr;
   /* background-image: url("/chamber/images/advertising-business-promotion.webps"); */
@@ -495,7 +495,7 @@ p {
   margin-top: 3%;
 }
 
-#visit-us h1 {
+#reasons-visit-us h1 {
   font-size: 1rem;
   font-weight: bold;
 }
