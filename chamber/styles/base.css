@@ -484,12 +484,12 @@ p {
 #reasons-visit-us {
   display: grid;
   grid-template-columns: 1fr;
-  /* background-image: url("/chamber/images/advertising-business-promotion.webps"); */
+  background-image: url("../images/visit.jpg");
   background-size: cover; 
   background-repeat: no-repeat; 
   background-attachment: fixed;
   color: #f5f4f4;
-  background-color: #020000;
+  /* background-color: #020000; */
   padding-bottom: 8%;
   padding-top: 4%;
   margin-top: 3%;
@@ -522,6 +522,12 @@ p {
   border: #f5f4f4 solid 1px;
   color: #f5f4f4;
   cursor: pointer;
+}
+
+.reason5 button:hover {
+  background-color: #f5f4f4;
+  color: #020000;
+  border: #020000 solid 1px;
 }
 
 
