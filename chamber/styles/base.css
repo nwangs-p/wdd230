@@ -157,6 +157,7 @@ p {
 
 #updates {
     display: flex;
+    justify-content: center;
     /* align-items: center; */
 }
 
@@ -210,6 +211,11 @@ p {
    grid-column: 2/3; 
    grid-row: 2/3;
    margin-bottom: 4px;
+   margin: 0 auto;
+   /* display: flex;
+   flex-direction: column;
+   justify-content: center; */
+
 }
 
 #hero-pic {
