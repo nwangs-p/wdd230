@@ -404,7 +404,7 @@ p {
 .weather > button {
   border: 2px solid #020202;
   background-color: #f5f4f4;
-  padding: 1%;
+  padding: 2vh 2vw;
   color: #020000;
   font-weight: bold;
   cursor: pointer;
