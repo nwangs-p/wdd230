@@ -457,16 +457,16 @@ p {
 
 .idea-msg {
   background-color: #f5f4f4;
+  padding: 5vw; /* Use viewport width for responsive padding */
   /* text-align: center; */
-  padding: 10%;
 }
 
 .idea-msg button {
-  margin-left: 4%;
+  margin-left: 4vw; /* Use viewport width for responsive margin */
   border: 2px solid #020000;
   background-color: #020000;
   color: #f5f4f4;
-  padding: 2%;
+  padding: 2vh 2vw; /* Use viewport height and width for responsive padding */
   border-radius: 50px;
 }
 

@@ -235,6 +235,22 @@
         max-width: calc(50% - 50px); /* Two columns on larger screens */
       }
 
+      .founding {
+        font-size: 15px;
+
+      }
+
+      .mission {
+        font-size: 15px;
+    
+      }
+
+      .benefit p{
+        font-size: 15px;
+
+      }
+
+
       .business-promotion {
         display: grid;
         grid-template-columns: 1fr 1fr; /* Two equal-sized columns */
@@ -244,43 +260,80 @@
 
       .sales-pro > div {
         display: flex;
-        margin: 3%;
-        margin-top: 1%;
-        
+        /* justify-content: space-around; */
+        margin-right: 10px;
       }
+
+      
 
       .sales-pro {
         margin-top: 10%;
         padding-bottom: 0%;
-        height: 82%;
+        height: 86%;
+        padding-bottom: 0px;
       }
 
-      .promotion1, .promotion2, .promotion3 {
+      .sales-pro > h1 {
+        font-size: 2vw;
+      }
+
+      .promotion1,
+      .promotion2, 
+      .promotion3 {
         margin-left: 2%;
         height: auto;
         flex: 1;
-        padding-bottom: 2%;
+        padding-bottom: 1pxpx;
+        box-sizing: border-box;
       }
+
+      .promotion1 p, h4 {
+        font-size: 1.1vw;
+      }
+
+      .promotion2 p, h4 {
+        font-size: 1.1vw;
+      }
+
+      .promotion3 p, h4 {
+        font-size: 1.1vw;
+      }
+
+
 
       .ideas {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-left: 2%;
         margin-right: 2%;
-        /* margin-top: 3%; */
+        /* box-sizing: border-box; */
+        max-width: 100%;
       }
-
+      
       .idea-msg {
         width: 100%;
-        padding-left: 20%;
-        padding-top: 15%;
         height: 99%;
+        padding-bottom: 0px;
+      }
+      
+      .idea-msg h1 {
+        font-size: 3vw; /* Responsive font size using vw */
+      }
+      
+      .idea-msg p {
+        font-size: 1.5vw; /* Responsive font size using vw */
+      }
+      
+      .idea-msg img {
+        width: 100%;
+        height: auto;
+      }
+      
+      .idea-msg button {
+        margin-top: 2vh; /* Use viewport height for responsive margin */
+        margin-left: 0;
       }
 
-      .idea-msg button {
-        margin-top: 10%;
-        margin-left: 0%;
-      }
 
       /* .pro-img,
       .sales-pro {
@@ -297,6 +350,18 @@
    
         .review-container {
         width: 30%;
+      }
+
+      .text-warning {
+        font-size: 3vw;
+      }
+
+      .text-primary {
+        font-size: 3vw;
+      }
+
+      .text-danger {
+        font-size: 3vw;
       }
 
   
